@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["dungeoncrawl"]
+
+[workspace.dependencies]
+bracket-lib = "0.8"
+legion = "0.4"
