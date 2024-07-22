@@ -1,6 +1,5 @@
 use crate::map_builder::automata::CellularAutomataArchitect;
 use crate::map_builder::drunkard::DrunkardsWalkArchitect;
-use crate::map_builder::empty::EmptyArchitect;
 use crate::map_builder::prefab::apply_prefab;
 use crate::map_builder::rooms::RoomsArchitect;
 use crate::prelude::*;

@@ -4,4 +4,4 @@ members = ["dungeoncrawl"]
 
 [workspace.dependencies]
 bracket-lib = "0.8"
-legion = "0.4"
+legion = "=0.3.1"

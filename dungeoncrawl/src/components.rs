@@ -61,6 +61,9 @@ pub struct ChasingPlayer;
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct Item;
 
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct Weapon;
+
 #[derive(Copy, Clone, Debug, PartialEq)]
 pub struct AmuletOfYala;
 
@@ -88,3 +91,6 @@ impl FieldOfView {
         }
     }
 }
+
+#[derive(Clone, Copy, Debug, PartialEq)]
+pub struct Damage(pub i32);
